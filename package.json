@@ -1,7 +1,7 @@
 {
-  "name": "awesome-qr",
-  "version": "2.1.4-rc.0",
-  "description": "An awesome but simple QR code generator written in JavaScript.",
+  "name": "gejin-qr",
+  "version": "1.0.0",
+  "description": "An Qrcode lib forked by awesome-qr",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
   "scripts": {
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SumiMakito/Awesome-qr.js.git"
+    "url": "git+https://github.com/junbinding/Awesome-qr.js.git"
   },
   "keywords": [
     "qr",
@@ -21,12 +21,12 @@
   "author": "Makito <sumimakito@hotmail.com>",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/SumiMakito/Awesome-qr.js/issues"
+    "url": "https://github.com/junbinding/Awesome-qr.js/issues"
   },
-  "homepage": "https://github.com/SumiMakito/Awesome-qr.js#readme",
+  "homepage": "https://github.com/junbinding/Awesome-qr.js#readme",
   "dependencies": {
     "buffer": "^6.0.3",
-    "canvas": "https://github.com/Automattic/node-canvas.git#6fae569fc5e2ca2d5d81c9d15a0fe49bfb993b51",
+    "canvas": "2.8.0",
     "js-binary-schema-parser": "^2.0.0"
   },
   "devDependencies": {
